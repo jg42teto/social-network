@@ -1,0 +1,51 @@
+// auth
+export const AUTH_REQUEST = 'AUTH_REQUEST';
+export const AUTH_LOGOUT = 'AUTH_LOGOUT';
+export const AUTH_AUTHENTICATED = 'AUTH_AUTHENTICATED';
+export const AUTH_USER_ID = 'AUTH_USER_ID';
+export const AUTH_USER_USERNAME = 'AUTH_USER_USERNAME';
+export const AUTH_USER_ROLE = 'AUTH_USER_ROLE';
+export const AUTH_ADMIN = 'AUTH_ADMIN';
+export const AUTH_SUPERADMIN = 'AUTH_SUPERADMIN';
+
+
+// logged user data
+export const USER_DATA_FETCH = 'USER_DATA_FETCH';
+export const USER_DATA_NOTIFICATIONS_CHECKED = 'USER_DATA_NOTIFICATIONS_CHECKED';
+export const USER_DATA_NOTIFICATIONS_NUMBER = 'USER_DATA_NOTIFICATIONS_NUMBER';
+
+
+// posts
+export const POST_ADD = 'POST_ADD';
+export const POST_FETCH = 'POST_FETCH';
+export const POST_PAGE_ALL = 'POST_PAGE_ALL';
+export const POST_PAGE_WALL = 'POST_PAGE_WALL';
+export const POST_PAGE_LIKES = 'POST_PAGE_LIKES';
+export const POST_PAGE_REPLIES = 'POST_PAGE_REPLIES';
+export const POST_PAGE_HASHTAG = 'POST_PAGE_HASHTAG';
+export const POST_PAGE_MENTION = 'POST_PAGE_MENTION';
+export const POST_PAGE_HOME = 'POST_PAGE_HOME';
+export const POST_REPLIED_TO = 'POST_REPLIED_TO';
+export const POST_LIKE_TOGGLE = 'POST_LIKE_TOGGLE';
+export const POST_REPOST_TOGGLE = 'POST_REPOST_TOGGLE';
+export const POST_DELETE = 'POST_DELETE';
+export const POST_INFO = 'POST_INFO';
+
+
+// users
+export const USER_FETCH = 'USER_FETCH';
+export const USER_EDIT = 'USER_EDIT';
+export const USER_UPLOAD_AVATAR = 'USER_UPLOAD_AVATAR';
+export const USER_SEARCH = 'USER_SEARCH';
+export const USER_FOLLOW_TOGGLE = 'USER_FOLLOW_TOGGLE';
+
+
+// admins
+export const ADMIN_ADMINS_FETCH = 'ADMIN_ADMINS_FETCH';
+export const ADMIN_ADMIN_TOGGLE = 'ADMIN_ADMIN_TOGGLE';
+export const ADMIN_USER_FETCH = 'ADMIN_USER_FETCH';
+export const ADMIN_USER_BLOCK_TOGGLE = 'ADMIN_USER_BLOCK_TOGGLE';
+
+
+// hashtags
+export const HASHTAG_SEARCH = 'HASHTAG_SEARCH'
